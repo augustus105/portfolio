@@ -5,8 +5,9 @@ html,body{
 .body{
     background:
     linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-                url(/images/tecnological.jpg);
-    /* background: url(/images//de3648faf0_1152216_0-second_w800px.jpeg) no-repeat; */
+                /* url(../images/tecnological.jpg) */
+                url(https://media.istockphoto.com/id/1318284121/photo/young-programmer-testing-the-software.jpg?s=612x612&w=0&k=20&c=e4Kdydq0yu8PF-sBXU5g16udLnn_p5jS8eSyHDQ8BbI=)
+                ;
     background-size: 100% 100%;
     height: 100vh;
     display: flex;
@@ -16,7 +17,6 @@ html,body{
 .navBar{
     position: absolute;
     background:transparent;
-    /* border: 1px solid white; */
     top: 0;
     width: 100%;
     display: flex;
@@ -42,7 +42,6 @@ li a:link:hover{
     color: red;
 }
 li a:link{
-    /* color: white ; */
     text-decoration: none;
     transition: 400ms;
 }
@@ -70,12 +69,10 @@ li a:visited:hover{
     font-family: tahoma;
     margin: 0;
     font-weight: 700;
-    text-transform: uppercase;
 }
 .contents button{
     padding: 1em;
     width: 200px;
-    /* height: 50px; */
     background-color: purple;
     outline: 0;
     border: none;
